@@ -1,6 +1,8 @@
 FROM ubuntu:16.04
 
 LABEL Description="Convert MWTab to ISA-Tab"
+LABEL software="mw2isa"
+LABEL software.version="0.3.4"
 
 MAINTAINER Philippe Rocca-Serra, philippe.rocca-serra@oerc.ox.ac.uk
 
