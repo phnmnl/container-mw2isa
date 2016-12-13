@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys
 import os
 mwtab_study_id = sys.argv[1]
