@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 echo "testing if invocation from docker works fine"
 
 # Run the tool with the test data

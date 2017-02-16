@@ -1,4 +1,5 @@
 FROM ubuntu:16.04
+
 MAINTAINER PhenoMeNal-H2020 Project ( phenomenal-h2020-users@googlegroups.com )
 
 LABEL Description="Convert MWTab to ISA-Tab"
@@ -16,6 +17,7 @@ RUN apt-get -y update && apt-get -y install --no-install-recommends python3-pip 
     apt-get autoremove -y && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ADD run_test1.sh /usr/local/bin/run_test1.sh
+RUN chmod a+x /usr/local/bin/run_test1.sh
 
 ADD run_mwtab2isa.py /usr/local/bin/
 RUN chmod a+x /usr/local/bin/run_mwtab2isa.py
