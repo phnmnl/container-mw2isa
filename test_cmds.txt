@@ -1,0 +1,2 @@
+which run_test1.sh
+which run_mwtab2isa.py
