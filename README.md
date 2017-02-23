@@ -16,6 +16,7 @@ a docker container for a microservice converting an MWTab file from NIH Metabolo
 
 ## Container Contributors
 - [Philippe Rocca-Serra](https://github.com/proccaserra) (University of Oxford e-Research Centre)
+- [David Johnson](https://github.com/djcomlab) (University of Oxford e-Research Centre)
 
 ## Git Repository
 - https://github.com/phnmnl/container-mw2isa.git
@@ -28,7 +29,6 @@ docker pull docker-registry.phenomenal-h2020.eu/phnmnl/container-mw2isa
 ## Future Developments
 - semantic alignment
 - data matrix validation
-
 
 ## Publications
 - in preparation
