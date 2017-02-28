@@ -1,22 +1,29 @@
 #!/bin/bash
 
-
 echo "testing if invocation from docker works fine"
 
 # Run the tool with the test data
-#mwtab2isa.py -html_file /tmp/study-dir/index.html  -out_dir /data/ -study_id "ST000406"
+run_mwtab2isa.py ST000406 /
+
+if ! [ -e "/ST000406/i_investigation.txt" ]; then
+    echo "ISA investigation file not found"
+    exit 1
+fi
+
+if ! [ -e "/ST000406/s_ST000406.txt" ]; then
+    echo "ISA study file not found"
+    exit 1
+fi
+
+if ! [ -e "/ST000406/a_ST000406_AN000646.txt" ]; then
+    echo "ISA assay file not found"
+    exit 1
+fi
 
 
-
-# Check that files were created/correctness
-# if ! [ -e "/data/study-dir/index.html" ]; then
-#     echo "HTML file doesn't exist"
-#     exit 1
-# fi
-
-# if ! [ -e "/tmp/study-dir/test-study/i_Investigation.txt" ]; then
-#     echo "ISA investigation file not found"
-#     exit 1
-# fi
+if ! [ -e "/ST000406/data/ST000406_AN000646_raw_data.txt" ]; then
+    echo "Raw data file not found"
+    exit 1
+fi
 
 echo "All files created successfully"
