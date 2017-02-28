@@ -1,9 +1,6 @@
 # container-mw2isa
-<<<<<<< HEAD
-a repo for a docker container for a microservice converting an MWTab to ISA-Tab format
-=======
 
-Version:0.5.0 
+Version:0.5.0
 
 ## Short description
 A container that given an NIH Metabolomics Workbench study identifier generates an ISA-Tab document from a MWTab file.
@@ -35,4 +32,3 @@ docker pull docker-registry.phenomenal-h2020.eu/phnmnl/container-mw2isa
 
 ## Publications
 - Sansone, Susanna-Assunta, Rocca-Serra, Philippe, Gonzalez-Beltran, Alejandra, Johnson, David, & ISA Community. (2016, October 28). ISA Model and Serialization Specifications 1.0. Zenodo. http://doi.org/10.5281/zenodo.163640
->>>>>>> develop
