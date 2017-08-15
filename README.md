@@ -22,10 +22,18 @@ A docker container for a microservice converting an MWTab file from NIH Metabolo
 - https://github.com/phnmnl/container-mw2isa.git
 
 ## Installation
+
+mw2isa is present on all PhenoMeNal Galaxy instances on deployed Cloud Research Environments, under the ISA tools category in the tool bar to the left of the screen. No installation is needed hence on PhenoMeNal Cloud Research Environments.
+
 For local installation of the container:
 ```
 docker pull docker-registry.phenomenal-h2020.eu/phnmnl/container-mw2isa
 ```
+
+## Usage Instructions
+
+On a PhenoMeNal Cloud Research Environment Galaxy environment, go to ISA tools tool category, and then click on mw2isa, and  fill the `Metabolomics Workbench Study Identifier` field (the format should be in the following pattern ST\d6+ as in ST000110) then press Run. 
+
 ## Future Developments
 - semantic alignment
 - data matrix validation
