@@ -1,6 +1,6 @@
 # container-mw2isa
 
-Version:0.5.0
+Version:0.9.4
 
 ## Short description
 A container that given an NIH Metabolomics Workbench study identifier generates an ISA-Tab document from a MWTab file.
