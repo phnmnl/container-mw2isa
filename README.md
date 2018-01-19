@@ -8,8 +8,24 @@ A container that given an NIH Metabolomics Workbench study identifier generates 
 ## Description
 A docker container for a microservice converting an MWTab file from NIH Metabolomics Workbench to ISA-Tab format given an identifier from that database (in the form ST\d+) and an output path. As an option, ISA syntactic validation may be invoked by providing two additional arguments: a boolean set to true to indicate validation is requested and a path to an ISA configuration.
 
+## Key features
+
+- Create ISA-Tab metadata from experimental design parameters.
+
 ## Functionality
-- Other Tools
+
+- Data Management / Study Dataset Download
+- Data Management / Study Metadata Format Conversion
+
+## Approaches
+
+- Metabolomics
+- Isotopic Labelling Analysis
+
+## Instrument Data Types
+
+- MS
+- NMR
 
 ## Tool Authors
 - [ISA Team](http://isa-tools.org)
