@@ -3,7 +3,7 @@
 echo "testing if invocation from docker works fine"
 
 # Run the tool with the test data
-run_mwtab2isa.py ST000406 /
+mw2isatab.py ST000406 /
 
 if ! [ -e "/ST000406/i_investigation.txt" ]; then
     echo "ISA investigation file not found"
