@@ -13,4 +13,4 @@ RUN chmod a+x /usr/local/bin/run_test1.sh
 ADD mw2isatab.py /usr/local/bin/mw2isatab.py
 RUN chmod a+x /usr/local/bin/mw2isatab.py
 
-ENTRYPOINT ["run_mwtab2isa.py"]
+ENTRYPOINT ["mw2isatab.py"]
