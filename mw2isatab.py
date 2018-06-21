@@ -3,7 +3,7 @@
 import sys
 
 if len(sys.argv) < 3:
-   print('Usage: run_mwtab2isa.py mwtab_study_id target_dir')
+   print('Usage: mw2isatab.py mwtab_study_id target_dir')
    sys.exit(0)
 
 mwtab_study_id = sys.argv[1]
