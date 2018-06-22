@@ -1,6 +1,6 @@
 # container-mw2isa
 
-Version:0.9.4
+Version:0.9.5
 
 ## Short description
 A container that given an NIH Metabolomics Workbench study identifier generates an ISA-Tab document from a MWTab file.
@@ -53,13 +53,13 @@ On a PhenoMeNal Cloud Research Environment Galaxy environment, go to ISA tools t
 From docker:
 
 ```bash
-docker run docker-registry.phenomenal-h2020.eu/phnmnl/container-mw2isa <MW_STUDY_ID>
+docker run docker-registry.phenomenal-h2020.eu/phnmnl/mw2isa <MW_STUDY_ID> <output directory>
 ```
 
 e.g.
 
 ```bash
-docker run docker-registry.phenomenal-h2020.eu/phnmnl/container-mw2isa ST000110
+docker run docker-registry.phenomenal-h2020.eu/phnmnl/mw2isa ST000110 /
 ```
 
 ## Future Developments
